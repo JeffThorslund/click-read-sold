@@ -1,0 +1,91 @@
+div {
+  font-family: "Raleway", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.section1-wrapper {
+  /*Wraps whole grid*/
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ed6663), to(#ffa372));
+  background-image: linear-gradient(270deg, #ed6663, #ffa372);
+  padding: 6%;
+}
+
+.component-wrapper #forgotten {
+  font-size: 3em;
+}
+
+.component-wrapper #solution {
+  font-size: 2em;
+}
+
+.component-wrapper #conclusion {
+  font-size: 2em;
+  padding-top: 40px;
+}
+
+#prompt {
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#points {
+  margin-left: 39px;
+}
+
+.component-wrapper {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 1;
+  grid-row: 1 / 1;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #1b262c;
+}
+
+.right-wrapper {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 1;
+  grid-row: 1 / 1;
+}
+
+#dot {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(43deg, #0f4c81, #1b262c);
+  border-radius: 10%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Section1.css.map */

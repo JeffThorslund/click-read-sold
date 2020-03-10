@@ -1,0 +1,47 @@
+.section4-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(-43deg, #0f4c81, #1b262c);
+  padding: 80px;
+}
+
+.section4-wrapper #text {
+  font-size: 2.5em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.example_c {
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 50px;
+  display: inline-block;
+  -webkit-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
+  cursor: pointer;
+  font-size: 2em;
+  border-radius: 30px;
+  border: 4px solid #ffa372;
+}
+
+.example_c:hover {
+  color: #1b262c;
+  background: #ffa372;
+  border-color: #ffa372;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Section4.css.map */

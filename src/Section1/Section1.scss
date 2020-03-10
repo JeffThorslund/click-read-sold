@@ -1,0 +1,91 @@
+$color1: #ed6663;
+$color2: #ffa372;
+$color3: #0f4c81;
+$color4: #1b262c;
+$font: #1b262c;
+
+div {
+  font-family: "Raleway", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.section1-wrapper{ /*Wraps whole grid*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    background-image: linear-gradient(270deg, $color1, $color2);
+    padding: 6%;
+
+}
+
+.component-wrapper #forgotten {
+  font-size: 3em;
+}
+
+.component-wrapper #solution {
+  font-size: 2em;
+}
+
+.component-wrapper #conclusion {
+  font-size: 2em;
+  padding-top: 40px;
+}
+
+#prompt {
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#points {
+  margin-left: 39px;
+}
+
+
+
+.component-wrapper {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    
+
+  
+
+  justify-self: center;
+  align-self: center;
+
+
+
+  color: $font;
+}
+
+.right-wrapper{
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+}
+
+#dot {
+    
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(43deg, $color3, $color4);
+  border-radius: 10%;
+  align-self: center;
+  justify-self: center;
+}
+
+.flex-container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#dot .icon {
+    
+    
+
+}
+
