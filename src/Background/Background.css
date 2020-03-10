@@ -29,4 +29,10 @@
   opacity: 1;
   background-image: linear-gradient(-43deg, #0f4c81, #1b262c);
 }
+
+#left {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
 /*# sourceMappingURL=Background.css.map */

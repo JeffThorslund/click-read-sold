@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Header.css";
 import Logo from "./Logo.png";
+import VectorLeft from "./VectorLeft.png"
+import VectorRight from "./VectorRight.png"
 
 import OnboardForm from "./OnboardForm";
 
@@ -45,8 +47,10 @@ export default class Header extends Component {
             
           </div>
         </div>
+        <img src={VectorRight} alt='corner' className='corner' id='right'/>
+        {/*<img src={VectorLeft} alt='corner' className='corner' id='left'/>
         
-        {/*<div className="background" id="tint-fringe"></div>*/}
+        <div className="background" id="tint-fringe"></div>*/}
       </div>
     );
   }

@@ -2,6 +2,7 @@ import React from "react";
 import "./Background.scss";
 import BackgroundImg from "./Background.png";
 
+
 function Background() {
   return (
     <div id="sunrise-wrapper" className="background">
@@ -13,7 +14,7 @@ function Background() {
       />*/}
       <div className="background" id="tint"></div>
 
-       <img src='src\Background\Vector2.svg' id='left' />
+       
       
 
     </div>
