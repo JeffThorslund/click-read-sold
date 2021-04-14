@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T19:33:11.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="13.10.0" etag="RYlzIcno9shOfZZlurrv" type="github"><diagram id="HeBlJKTvWHdAt9VCQiSY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-14T19:41:47.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="k5aTis6NVcPZCHqNOR3I" version="13.10.0" type="github">
+  <diagram id="HeBlJKTvWHdAt9VCQiSY" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-1" value="&lt;b&gt;Loading Screen&lt;/b&gt;&lt;br&gt;Displayed while any content is loading" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-3" target="_PQMNd-ya4pUV9V2dUP7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-13" value="Log In" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_PQMNd-ya4pUV9V2dUP7-6">
+          <mxGeometry x="0.05" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-3" target="_PQMNd-ya4pUV9V2dUP7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-14" value="Create Account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_PQMNd-ya4pUV9V2dUP7-8">
+          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-3" target="_PQMNd-ya4pUV9V2dUP7-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-15" value="Forgot Password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_PQMNd-ya4pUV9V2dUP7-10">
+          <mxGeometry x="0.2182" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-3" value="&lt;b&gt;Login Screen&lt;br&gt;&lt;/b&gt;User enters credentials&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-5" value="&lt;b&gt;Event Feed&lt;/b&gt;&lt;br&gt;Feed of events." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-7" target="_PQMNd-ya4pUV9V2dUP7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-7" value="&lt;b&gt;Registration&lt;br&gt;&lt;/b&gt;Account creation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-16" target="_PQMNd-ya4pUV9V2dUP7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="200" />
+              <mxPoint x="490" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-16" value="&lt;b&gt;Password Recovery&lt;/b&gt;&lt;br&gt;User can recover password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
