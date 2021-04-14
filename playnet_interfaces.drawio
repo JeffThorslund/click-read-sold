@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T20:11:39.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="so4eA04tllMf12i61YES" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T20:18:09.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Q6rBZmI90hlqJaMRDg_u" version="13.10.0" type="github">
   <diagram id="HeBlJKTvWHdAt9VCQiSY" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,6 +98,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-5" target="_PQMNd-ya4pUV9V2dUP7-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="160" />
+              <mxPoint x="660" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-47" value="Search" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_PQMNd-ya4pUV9V2dUP7-46">
+          <mxGeometry x="-0.2848" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_PQMNd-ya4pUV9V2dUP7-5" value="&lt;b&gt;Event Feed&lt;/b&gt;&lt;br&gt;Feed of events." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="10" width="120" height="70" as="geometry" />
         </mxCell>
@@ -134,14 +148,19 @@
         <mxCell id="_PQMNd-ya4pUV9V2dUP7-25" value="&lt;b&gt;Messenger Conversations&lt;/b&gt;&lt;br&gt;List conversations." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_PQMNd-ya4pUV9V2dUP7-27" value="&lt;b&gt;My User Profile&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-27" target="_PQMNd-ya4pUV9V2dUP7-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-27" value="&lt;b&gt;My User Profile&lt;/b&gt;&lt;br&gt;Summary of user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_PQMNd-ya4pUV9V2dUP7-30" value="&lt;b&gt;Their User Profile&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_PQMNd-ya4pUV9V2dUP7-36" value="&lt;b&gt;Event Creation&lt;/b&gt;&lt;br&gt;User Creates an Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="319.9999999999999" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="319.9999999999999" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_PQMNd-ya4pUV9V2dUP7-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PQMNd-ya4pUV9V2dUP7-37" target="_PQMNd-ya4pUV9V2dUP7-30">
           <mxGeometry relative="1" as="geometry">
@@ -158,6 +177,12 @@
         </mxCell>
         <mxCell id="_PQMNd-ya4pUV9V2dUP7-37" value="&lt;b&gt;Single Conversation&lt;/b&gt;&lt;br&gt;Send and recieve messages" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PQMNd-ya4pUV9V2dUP7-48" value="&lt;b&gt;Event Search&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
